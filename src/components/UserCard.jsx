@@ -3,7 +3,7 @@ function UserCard(props) {
     return (
         <div className="card">
             <div>
-                <img src={props.user.picture.medium} alt='image' />
+                <img src={props.user.picture.medium} alt='userprofile' />
             </div>
 
             <div className="info">
